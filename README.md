@@ -16,7 +16,7 @@ $ react-native upgrade
 After running the upgrade you can remove react and react-dom  in package.json and explicitly install the versions of react and react-dom needed by react native. (See Known Issues) You can now also update/install other packages as necessary. After updating react-native make sure that all your npm dependencies are met.
 
 #### Known Issues :
-If you are having troubles with running your react-native project make sure that the versions of react and react-dom are version locked in package.json and the same as the version required by react-native. Otherwise your react-native project won't package properly.
+If you are having trouble with running your react-native project make sure that the versions of react and react-dom are version locked in package.json and the same as the version required by react-native. Otherwise your react-native project won't package properly.
 
 
 ### Unit Tests

@@ -7,6 +7,11 @@ Run the following command to install all npm dependencies:
 $ npm install
 ```
 
+### Unit Testing
+Run the following command to execute unit tests with coverage reports :
+```
+$ npm test
+```
 
 ### Updating React Native
 In order to update react-native you have to update react and react-dom. Add a ^ in front of the required version for each of these in package.json and run the following command:
@@ -17,10 +22,3 @@ After running the upgrade you can remove react and react-dom  in package.json an
 
 #### Known Issues :
 If you are having trouble with running your react-native project make sure that the versions of react and react-dom are version locked in package.json and the same as the version required by react-native. Otherwise your react-native project won't package properly.
-
-
-### Unit Tests
-Run the following command to execute unit tests with coverage reports :
-```
-$ npm test
-```
